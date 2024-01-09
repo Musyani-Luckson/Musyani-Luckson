@@ -1,0 +1,180 @@
+/*  */
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+/*  */
+.sectionDiscription {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+/*  */
+.sectionName {
+  font-weight: bolder;
+  margin-top: -0.2rem;
+}
+/*  */
+.eachSection {
+  min-height: 100vh;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-rows: 0 1fr;
+}
+.sectionBody {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+/* HOME  */
+/*  */
+.sectionBodyHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+/*  */
+/*  */
+/*  */
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.profilePicture {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+/*  */
+.detailsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/*  */
+.greeting {
+  margin-bottom: -0.1rem;
+}
+/*  */
+.myName {
+  font-weight: bolder;
+}
+/*  */
+.skillsName {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.8);
+}
+/*  */
+.getInTouchLinksBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+/*  */
+.socialLinksBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 0.6rem;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.toolBox {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  border: solid 1pt rgba(0, 0, 0, 0.08);
+  border-radius: 3pt;
+}
+/*  */
+.toolBoxName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+/*  */
+.toolOuterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 0.3rem;
+  padding: 0.1rem;
+  margin: 0.2rem;
+  border: solid 1pt rgba(0, 0, 0, 0.08);
+  border-radius: 3pt;
+}
+/*  */
+.toolName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.1rem;
+  font-size: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+/*  */
+.toolIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.1rem;
+}
+/*  */
+.cardElement {
+  display: grid;
+  border: solid 1pt rgba(0, 0, 0, 0.08);
+  border-radius: 3pt;
+}
+.img {
+  border-top-left-radius: 3pt;
+  border-top-right-radius: 3pt;
+}
+.projectName{
+  text-transform: capitalize;
+}
+.about {
+  padding: 0.7rem;
+  font-size: 0.7rem;
+}
+.timestamp {
+  padding: 0.4rem;
+  font-size: 0.7rem;
+}
+/*  */
+/* .childrenOfProject{
+ row-gap: 1rem;
+ margin: 1rem;
+ column-gap: .4rem;
+} */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */

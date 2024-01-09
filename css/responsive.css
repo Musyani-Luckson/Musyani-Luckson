@@ -1,0 +1,20 @@
+/* Mobile Devices (portrait and landscape) 767px */
+@media only screen and (max-width: 767px) {
+  .contentOnHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 1rem;
+  }
+}
+/* Desktops and larger screens 768px */
+@media only screen and (min-width: 768px) {
+  .contentOnHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 1rem;
+  }
+}

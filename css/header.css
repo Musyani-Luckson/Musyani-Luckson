@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 4rem;
+  display: grid;
+}
+/* Mobile Devices (portrait and landscape) 767px */
+@media only screen and (max-width: 767px) {
+  /*  */
+  .mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+  }
+  /*  */
+  #navbar {
+    display: none;
+  }
+  .navList {
+    position: absolute;
+  }
+}
+/*  */
+/* Desktops and larger screens 768px */
+@media only screen and (min-width: 768px) {
+  /*  */
+  .mobileNav {
+    display: none;
+  }
+  /*  */
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+  }
+  /*  */
+  .navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 0.2rem;
+    list-style-type: none;
+  }
+}

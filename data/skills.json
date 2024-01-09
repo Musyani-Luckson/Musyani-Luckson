@@ -1,0 +1,72 @@
+[
+  {
+    "skills": {
+      "front-end": [
+        {
+          "name": "HTML",
+          "icon": ""
+        },
+        {
+          "name": "CSS",
+          "icon": ""
+        },
+        {
+          "name": "Javascript",
+          "icon": ""
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "bi-bootstrap-fill"
+        },
+        {
+          "name": "React Js",
+          "icon": ""
+        }
+      ],
+      "back-end": [
+        {
+          "name": "Node Js",
+          "icon": ""
+        },
+        {
+          "name": "Express Js",
+          "icon": ""
+        },
+        {
+          "name": "MongoDB",
+          "icon": ""
+        },
+        {
+          "name": "Mogoose",
+          "icon": "bi-mongoose"
+        },
+        {
+          "name": "Golang",
+          "icon": ""
+        }
+      ],
+      "other": [
+        {
+          "name": "C++",
+          "icon": ""
+        },
+        {
+          "name": "Python",
+          "icon": ""
+        },
+        {
+          "name": "PHP",
+          "icon": ""
+        },
+        {
+          "name": "MySQL",
+          "icon": ""
+        },
+        {
+          "name": "Django",
+          "icon": ""
+        }
+      ]
+    }
+  }
+]
